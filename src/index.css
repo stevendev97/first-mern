@@ -17,7 +17,7 @@ body {
   height: 80vh;
 }
 
-.form-wrapper {
+.form-wrapper, .option-wrapper {
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -29,6 +29,11 @@ body {
 
 .form-wrapper input {
   padding: .8rem;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: space-between;
 }
 
 
